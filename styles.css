@@ -92,6 +92,11 @@ header{
     margin-top: 1rem;
     box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.404);
     background-image: radial-gradient(circle at 75.43% 75.43%, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 .main img{
     width: 100%;
