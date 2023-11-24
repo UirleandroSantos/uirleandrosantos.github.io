@@ -21,6 +21,7 @@ header{
     gap: 1rem;
     background-color: gray;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .logo, .search{
@@ -58,7 +59,6 @@ header{
 }
 
 .main{
-    margin-top: 1rem;
     display: grid;
     grid-template-columns: 40% 40%;
     gap: 2rem;
