@@ -19,7 +19,23 @@ i{
     color: black;
     font-weight: bold;
 }
+#botao{
+    padding: 0.25rem;
+    border-radius: 4px;
+}
 
+.opcoes{
+    visibility: hidden;
+    height: 0;
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+.opcoes a{
+    color: #c4c4c4;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -32,7 +48,6 @@ header{
     background-image: radial-gradient(circle at 75.43% 75.43%, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);
     border-radius: 8px;
 }
-
 .logo, .search{
     display: flex;
     flex-direction: row;

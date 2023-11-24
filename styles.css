@@ -13,10 +13,27 @@ body{
 
 i{
     font-size: 1.5rem;
-    color: black;
+    color: rgb(36, 27, 27);
     font-weight: bold;
 }
 
+#botao{
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.opcoes{
+    visibility: hidden;
+    height: 0;
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+.opcoes a{
+    color: #c4c4c4;
+}
 header{
     display: flex;
     flex-direction: column;
