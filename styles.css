@@ -110,6 +110,35 @@ header{
     color: #2d2d2d;
 }
 
+footer{
+    position: absolute;
+    bottom: 0.5rem;
+    border-radius: 8px;
+    background-color: #c4c4c4;
+    width: calc(100% - 1rem);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-image: radial-gradient(circle at 75.43% 75.43%, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);
+}
+
+.something{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+footer span{
+    font-size: 1rem;
+}
+
+footer .contatos{
+    display: flex;
+    gap: 1rem;
+}
+
 @media (min-width: 769px){
     header{
         flex-direction: row;
@@ -129,10 +158,20 @@ header{
     .card{
         width: 15rem;
     }
+
+    footer span{
+        font-size: 1.3rem;
+    }
 }
 
 @media (min-width: 600px){
     .main{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .something{
+        visibility: visible;
+        height: auto;
+        width: auto;
     }
 }
