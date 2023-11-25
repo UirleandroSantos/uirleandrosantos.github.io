@@ -95,6 +95,25 @@ header{
         padding: 2rem;
     }
 
+    .containerContatos{
+        padding: 1rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        gap: 1.5rem;
+    }
+    
+    .contatos{
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .contatos i{
+        font-size: 2rem;
+        color: #2d2d2d;
+    }
+
     .search{
         width: 25rem;
     }
