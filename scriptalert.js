@@ -1,0 +1,1 @@
+alert('Quando der play você irá ser redirecionado para outra página, basta simplesmente voltar e dar play que o video será iniciado')
