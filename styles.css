@@ -11,6 +11,12 @@ body{
     background-color: #f5f5dc;
 }
 
+#botaoClose{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
 i{
     font-size: 1.5rem;
     color: rgb(36, 27, 27);
@@ -20,6 +26,14 @@ i{
 #botao{
     padding: 0.25rem;
     border-radius: 4px;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: all ease-out 0.5s;
 }
 
 .opcoes{
