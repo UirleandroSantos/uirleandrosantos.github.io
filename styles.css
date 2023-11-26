@@ -139,10 +139,16 @@ header{
     background-position: center;
 }
 
-.main p{
+.name{
     font-weight: bold;
     color: #2d2d2d;
+    width: 100%;
+    height: 100%;
+    margin: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
