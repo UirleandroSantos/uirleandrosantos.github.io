@@ -39,6 +39,7 @@ i{
 .opcoes{
     visibility: hidden;
     height: 0;
+    width: fit-content;
 }
 
 .opcoes a{
