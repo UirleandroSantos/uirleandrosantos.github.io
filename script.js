@@ -3,7 +3,6 @@ let teste = document.querySelector('#teste');
 let botaoOpen = document.querySelector('#botaoOpen');
 let botaoClose = document.querySelector('#botaoClose');
 let opcoes = document.querySelector('#opcoes');
-let teste = document.querySelector('#teste');
 
 botaoOpen.addEventListener('click', () => {
     opcoes.style.visibility = 'visible';
@@ -35,5 +34,3 @@ botaoClose.addEventListener('click', () => {
     botaoClose.style.height = '0';
     botaoClose.style.width = '0'
 })
-
-console.log()
