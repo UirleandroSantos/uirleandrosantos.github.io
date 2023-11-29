@@ -1,4 +1,4 @@
-const episodios = {
+const episodiosTemp01 = {
     ep1: `    <iframe name=Player "" src="https://sinalpublico.com/player3/server1httphlb.php?vid=SPNT01EP01" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>
     `,
     ep2: `    <iframe name=Player "" src="https://sinalpublico.com/player3/server1httphlb.php?vid=SPNT01EP02" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>
@@ -52,25 +52,25 @@ const setInnerHTML = (id, content) => {
     }
   };
 
-  setInnerHTML('#ep1', episodios.ep1);
-  setInnerHTML('#ep2', episodios.ep2);
-  setInnerHTML('#ep3', episodios.ep3);
-  setInnerHTML('#ep4', episodios.ep4);
-  setInnerHTML('#ep5', episodios.ep5);
-  setInnerHTML('#ep6', episodios.ep6);
-  setInnerHTML('#ep7', episodios.ep7);
-  setInnerHTML('#ep8', episodios.ep8);
-  setInnerHTML('#ep9', episodios.ep9);
-  setInnerHTML('#ep10', episodios.ep10);
-  setInnerHTML('#ep11', episodios.ep11);
-  setInnerHTML('#ep12', episodios.ep12);
-  setInnerHTML('#ep13', episodios.ep13);
-  setInnerHTML('#ep14', episodios.ep14);
-  setInnerHTML('#ep15', episodios.ep15);
-  setInnerHTML('#ep16', episodios.ep16);
-  setInnerHTML('#ep17', episodios.ep17);
-  setInnerHTML('#ep18', episodios.ep18);
-  setInnerHTML('#ep19', episodios.ep19);
-  setInnerHTML('#ep20', episodios.ep20);
-  setInnerHTML('#ep21', episodios.ep21);
-  setInnerHTML('#ep22', episodios.ep22);
+  setInnerHTML('#ep1', episodiosTemp01.ep1);
+  setInnerHTML('#ep2', episodiosTemp01.ep2);
+  setInnerHTML('#ep3', episodiosTemp01.ep3);
+  setInnerHTML('#ep4', episodiosTemp01.ep4);
+  setInnerHTML('#ep5', episodiosTemp01.ep5);
+  setInnerHTML('#ep6', episodiosTemp01.ep6);
+  setInnerHTML('#ep7', episodiosTemp01.ep7);
+  setInnerHTML('#ep8', episodiosTemp01.ep8);
+  setInnerHTML('#ep9', episodiosTemp01.ep9);
+  setInnerHTML('#ep10', episodiosTemp01.ep10);
+  setInnerHTML('#ep11', episodiosTemp01.ep11);
+  setInnerHTML('#ep12', episodiosTemp01.ep12);
+  setInnerHTML('#ep13', episodiosTemp01.ep13);
+  setInnerHTML('#ep14', episodiosTemp01.ep14);
+  setInnerHTML('#ep15', episodiosTemp01.ep15);
+  setInnerHTML('#ep16', episodiosTemp01.ep16);
+  setInnerHTML('#ep17', episodiosTemp01.ep17);
+  setInnerHTML('#ep18', episodiosTemp01.ep18);
+  setInnerHTML('#ep19', episodiosTemp01.ep19);
+  setInnerHTML('#ep20', episodiosTemp01.ep20);
+  setInnerHTML('#ep21', episodiosTemp01.ep21);
+  setInnerHTML('#ep22', episodiosTemp01.ep22);
