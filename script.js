@@ -32,5 +32,5 @@ botaoClose.addEventListener('click', () => {
 
     botaoClose.style.visibility = 'hidden';
     botaoClose.style.height = '0';
-    botaoClose.style.width = '0'
+    botaoClose.style.width = '0';
 })
