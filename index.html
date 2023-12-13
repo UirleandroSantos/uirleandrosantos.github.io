@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
 
@@ -11,10 +12,11 @@
     <link rel="stylesheet" href="styles.css">
     <title>Filmes&Series</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <a href="#" id="botao" >
+            <a href="#" id="botao">
                 <i id="botaoOpen" class="fa-solid fa-bars"></i>
                 <i id="botaoClose" class="fa-solid fa-xmark"></i>
             </a>
@@ -34,7 +36,7 @@
             </ul>
         </aside>
         <div class='search'>
-            <input type="text" placeholder='Buscar filmes/series'/>
+            <input type="text" placeholder='Buscar filmes/series' onkeyup="searchInput(this.value)" />
             <a href="">
                 <i class="fa-solid fa-search"></i>
             </a>
@@ -56,41 +58,53 @@
         </ul>
     </section>
 
-    <article class='main' >
+    <ul class='main'>
         <a href="./series/supernatural/supernatural.html" class='card'>
-            <img src="https://cinema10.com.br/upload/series/series_4_MV5BMTJhM2VhZDItMTk4OS00MTRjLTlmMDQtNzEyYmM0NDA0YjhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_SX670_AL_.jpg" alt="" />
+            <img src="https://cinema10.com.br/upload/series/series_4_MV5BMTJhM2VhZDItMTk4OS00MTRjLTlmMDQtNzEyYmM0NDA0YjhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_SX670_AL_.jpg"
+                    alt="" />
             <p class="name">Sobrenatural / Supernatural (Dublado) - Lista de Episódios</p>
         </a>
 
+    
         <a href="./filmes/themercenary.html" class='card' target="_blank">
             <img src="https://www.themoviedb.org/t/p/original/yH7750OmhoPcrTA9PZTHohDjpqP.jpg" alt="">
             <p class="name">Os Mercenários 4 (Dublado) - 2023 - 1080p</p>
         </a>
+    
+
 
         <a href="./series/peakblinders/peakblinders.html" class='card'>
             <img src="https://www.newdvdreleasedates.com/images/movies/peaky-blinders-2013.jpg" alt="" />
-            <p class="name">Peak Blinders: Sangue, Apostas e Navalhas (Dublado) - Lista de Episódios</p>
+            <p class="name">Peak Blinders: (Dublado) - Lista de Episódios</p>
         </a>
+    
 
+    
         <a href="./series/graysAnatomy/graysAnatomy.html" class='card'>
-            <img src="https://veja.abril.com.br/wp-content/uploads/2016/11/s12ga-cartaz1.jpg?quality=70&strip=all" alt="" />
+            <img src="https://veja.abril.com.br/wp-content/uploads/2016/11/s12ga-cartaz1.jpg?quality=70&strip=all"
+                alt="" />
             <p class="name">A Anatomia de Grey / Grey’s Anatomy (Dublado) - Lista de Episódios</p>
         </a>
+    
 
 
+    
         <a href="./series/theVampireDiares/theVampireDiaries.html" class='card'>
             <img src="https://images.justwatch.com/poster/304426749/s332/temporada-4" alt="">
-            <p class="name">Diários de Um Vampiro -  (Dublado) - Lista de Episódios</p>
+            <p class="name">Diários de Um Vampiro - (Dublado) - Lista de Episódios</p>
         </a>
+    
 
+    
         <a href="./filmes/theoldguard.html" class='card' target="_blank">
             <img src="https://flixer.com/wp-content/uploads/2020/07/cjr4NWURcVN3gW5FlHeabgBHLrY.jpg" alt="">
             <p class="name">The Old Guard (Dublado) - 2020 - 1080p</p>
         </a>
-    </article>
+        
+    </ul>
 
     <div id="teste">
-        
+
     </div>
 
     <!-- <footer>
@@ -113,4 +127,5 @@
     <script src="https://kit.fontawesome.com/ab983dea67.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>

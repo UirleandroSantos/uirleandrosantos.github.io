@@ -33,4 +33,18 @@ botaoClose.addEventListener('click', () => {
     botaoClose.style.visibility = 'hidden';
     botaoClose.style.height = '0';
     botaoClose.style.width = '0';
-})
+});
+
+
+function searchInput(inputValue){
+    let input = inputValue.toLowerCase();
+    let x = document.querySelectorAll(".card");
+
+    for(let i = 0; i < x.length; i++){
+        if(!x[i].innerHTML.toLowerCase().includes(input)){
+            x[i].style.display = 'none'
+        }else{
+            x[i].style.display = ''
+        }
+    }
+}
