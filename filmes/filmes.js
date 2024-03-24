@@ -5,6 +5,8 @@ const filmes = {
     themercenary: `<iframe name=Player "" src="https://sinalpublico.com/player3/serverf4hlb.php?vid=OMRCNRS04" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`,
     ipmenem4: `<iframe name=Player "" src="https://sinalpublico.com/player3/serverf5hlb.php?vid=OGRNDMSTR4" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`,
     amorERedencao: `<iframe name=Player "" src="https://sinalpublico.cc/player3/serverf5hlb.php?vid=AMRDRDNCAO" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`,
+    orgulhoEPreconceito: `<iframe name=Player "" src="https://sinalpublico.cc/player3/serverf4hlb.php?vid=ORGNHDPRCNTO" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`,
+    comoEuEraAntesDeVoce: `<iframe name=Player "" src="https://sinalpublico.cc/player3/serverf3hlb.php?vid=CMEUERANTSDVC" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`,
 }
 
 const setInnerHTML = (id, content) => {
@@ -20,3 +22,5 @@ setInnerHTML('#theoldguard', filmes.theoldguard);
 setInnerHTML('#themercenary', filmes.themercenary);
 setInnerHTML('#ipmen', filmes.ipmenem4);
 setInnerHTML('#amorERedencao', filmes.amorERedencao);
+setInnerHTML('#orgulhoEPreconceito', filmes.orgulhoEPreconceito);
+setInnerHTML('#comoEuEraAntesDeVoce', filmes.comoEuEraAntesDeVoce);
