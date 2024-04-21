@@ -24,7 +24,7 @@ botaoOpen.addEventListener('click', () => {
 botaoClose.addEventListener('click', () => {
     opcoes.style.visibility = 'hidden';
     opcoes.style.height = '0';
-    opcoes.style.width = '0'
+    opcoes.style.width = '0';
 
     botaoOpen.style.visibility = 'visible';
     botaoOpen.style.height = 'auto';
@@ -38,13 +38,15 @@ botaoClose.addEventListener('click', () => {
 
 function searchInput(inputValue){
     let input = inputValue.toLowerCase();
-    let x = document.querySelectorAll(".card");
+    let x = document.querySelectorAll(".name");
+    let c = document.querySelector('.card');
 
     for(let i = 0; i < x.length; i++){
         if(!x[i].innerHTML.toLowerCase().includes(input)){
-            x[i].style.display = 'none'
+            x[i].style.display = 'none';
+            c.style.display = 'none';
         }else{
-            x[i].style.display = ''
+            x[i].style.display = '';
         }
     }
 }
